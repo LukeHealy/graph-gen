@@ -7,11 +7,13 @@ The cost between the two is generated using the pythagoras theorum.
 The heuristic is generated much the same, but in relation to the node in question and the destination node. (Euclidean distance heuristic.)
 
 ### Usage
+
 ~~~
 python gg.py <x> <y> <num_nodes> <max_branch> <src> <dst>
 ~~~
 
 ###Output
+
 The program outputs the number of nodes, and edges generated.
 The adjacency list is saved in a file in the following format: `src  dst cost`.
 
